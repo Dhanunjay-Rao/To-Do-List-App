@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    border-radius: 15px;
+  }
+  
+  #task-input {
+    border-radius: 50px;
+  }
+  
+  .btn-success {
+    border-radius: 50px;
+  }
+  
+  .list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .list-group-item .task-text.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+  }
+  
+  .modal-header.bg-warning {
+    background-color: #ffc107 !important;
+  }
+  
+  .modal-title {
+    color: #fff;
+  }
+  
+  .close span {
+    color: #fff;
+  }
+  
